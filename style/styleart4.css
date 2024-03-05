@@ -81,8 +81,12 @@ h5{
 .catal{
   text-align: center;
   margin: auto;
-}
+  }
 
+.gifs{
+  padding-top: 3rem!important;
+  padding-bottom: 7rem!important;
+}
 
 .ref{
   text-decoration: none;
@@ -101,11 +105,6 @@ footer{
 .socials{
   padding-top: 3rem;
   padding-bottom: 1rem;
-}
-
-.destruc img{
-  width: 100%;
-  height: auto;
 }
 
 .vid{
@@ -231,6 +230,7 @@ footer{
   .catal{
     flex-direction: column!important;
     justify-content: center;
+    padding-top: 0;
 
   }
 
@@ -242,6 +242,16 @@ footer{
   .speech{
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .gifs{
+    padding-top: 0rem!important;
+    margin-top: 0rem!important;
+    padding-bottom: 0rem!important;
+  }
+
+  .destruc{
+    padding-bottom: 3rem;
   }
 
   .socials img {
